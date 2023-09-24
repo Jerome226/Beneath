@@ -165,6 +165,7 @@ public class BeneathConfiguredFeatures
         register("magma_" + rock.getSerializedName(), () -> new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(new BlockMatchTest(Blocks.NETHERRACK), TFCBlocks.MAGMA_BLOCKS.get(rock).get().defaultBlockState(), 33)))
     );
 
+/*
     public static final RegistryObject<ConfiguredFeature<RandomTreeConfig, RandomTreeFeature>> CRIMSON_TREE = register("tree/crimson", () -> new ConfiguredFeature<>(TFCFeatures.RANDOM_TREE.get(),
         new RandomTreeConfig(
             randomTreeList("crimson", 16),
@@ -177,6 +178,7 @@ public class BeneathConfiguredFeatures
             Optional.empty(),
             new TreePlacementConfig(1, 5, false, false)
         )));
+*/
 
     private static List<ResourceLocation> randomTreeList(String name, int amount)
     {

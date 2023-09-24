@@ -231,11 +231,11 @@ public class ForgeEvents
                 }
                 else if (name.equals(Biomes.CRIMSON_FOREST.location()))
                 {
-                    gen.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION, get(BeneathPlacements.CRIMSON_TREE));
+                    //gen.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION, get(BeneathPlacements.CRIMSON_TREE));
                 }
                 else if (name.equals(Biomes.WARPED_FOREST.location()))
                 {
-                    gen.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION, get(BeneathPlacements.WARPED_TREE));
+                    //gen.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION, get(BeneathPlacements.WARPED_TREE));
                 }
                 else if (name.equals(Biomes.BASALT_DELTAS.location()))
                 {
